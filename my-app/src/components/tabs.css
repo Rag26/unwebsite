@@ -42,6 +42,11 @@
     border: 1px solid #ddd;
   }
 
+  p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   
   ul {
     list-style: none;
@@ -53,6 +58,10 @@
     margin: 6px 0;
     color: black;
     font-weight: bold;
+  }
+
+  ul li :hover {
+    color: #0056b3;
   }
   
   a {
